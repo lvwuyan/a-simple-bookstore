@@ -9,6 +9,14 @@ public class book {
     private String description;
     private String category_id;
 
+    public String getCategory_id() {
+        return category_id;
+    }
+
+    public void setCategory_id(String category_id) {
+        this.category_id = category_id;
+    }
+
     public int getId() {
         return id;
     }
@@ -55,13 +63,5 @@ public class book {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getCategory_id() {
-        return category_id;
-    }
-
-    public void setCategory_id(String category_id) {
-        this.category_id = category_id;
     }
 }
